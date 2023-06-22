@@ -1,12 +1,13 @@
 #include <stdio.h>
 /*
 * main - entry block
+*@void: no argument
 *Return: 0 success
 */
 int main(void)
 {
     int i;
-    for ( i=1 ;i <= 100; i++)
+    for (i=1 ; i <= 100; i++)
 {
         if((i % 3 == 0) && ( i % 15 != 0))
         {
@@ -22,7 +23,7 @@ int main(void)
             }
         else
         {
-            printf("%d ",i);
+            printf("%d ", i);
         }
 }
     putchar('\n');
