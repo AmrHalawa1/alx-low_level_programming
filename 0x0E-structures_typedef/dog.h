@@ -1,9 +1,9 @@
 /**
- * struct dog - Define a new struct dog with name, age, owner
- * @name: name of the dog
- * @age: age of the dog
- * @owner: owner of dog
- **/
+ * struct dog - describes the sweet boy or girl
+ * @name: name of dog
+ * @age: how old is that dog?
+ * @owner: who is the lucky person that gets to live with that dog?
+ */
 struct dog
 {
 	char *name;
